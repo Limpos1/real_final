@@ -1,0 +1,10 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\user\\Desktop\\Planit-InitAuthGeneratingAndMain-main']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [23372] using StatReload
+INFO:     Started server process [27688]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'server.py'. Reloading...
+     127.0.0.1:11085 - "GET /health HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'server.py'. Reloading...
+ 

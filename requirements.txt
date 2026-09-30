@@ -1,0 +1,11 @@
+# Planit Python 백엔드(server.py) 실행에 필요한 패키지
+# 설치: python -m pip install -r requirements.txt  (start.bat / start-dev.sh 가 없으면 자동 설치)
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.9
+pydantic>=2
+anthropic>=0.40
+google-genai>=1.0
+pdfplumber>=0.11
+pymupdf>=1.24
+firebase-admin>=6

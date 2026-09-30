@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: planit
+
+# 방식 B: 데이터는 Spring 이 Firebase Admin SDK 로 Firestore 에 저장한다. MySQL/JPA 없음.
+# 서비스 계정 키는 src/main/resources/firebase-service-account.json (커밋 금지, .gitignore 참고).
+
+# 퀴즈봇 문제 생성 (Google Gemini / Generative Language API).
+# api-key 가 비어 있으면 GeminiQuizQuestionGenerator 가 고정 예시 문제로 자동 폴백한다.
+# 키는 https://aistudio.google.com/apikey 에서 발급받아 환경변수 GEMINI_API_KEY 로 넣는다(커밋 금지).
+gemini:
+  api-key: ${GEMINI_API_KEY:}
+  model: ${GEMINI_MODEL:gemini-3.6-flash}
+
+# 8080은 팀원의 체크리스트 백엔드(Planit-Web-Checklist-main)가 이미 쓰고 있어서 겹친다.
+# 이 로그인/퀴즈 백엔드는 8081을 쓴다.
+server:
+  port: 8081
+  servlet:
+    session:
+      timeout: 7d   # 로그인 세션 유지 기간

@@ -1,0 +1,188 @@
+/* MyPageScreen.css — 회원정보 페이지 전용 스타일 (라벤더로즈 팔레트) */
+
+.mypage-root {
+  min-height: 100vh;
+  background: var(--bg, #fbefef);
+  font-family: 'Inter', sans-serif;
+  color: var(--ink, #4b3b47);
+}
+
+.mypage-page {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.mypage-page-title {
+  font-size: 15px;
+  color: #8b7488;
+  font-weight: 600;
+}
+
+.mypage-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.mypage-sidebar {
+  width: 250px;
+  flex: 0 0 250px;
+  background: #fffbf9;
+  border: 1px solid #f7dce0;
+  border-radius: 20px;
+  padding: 28px 22px;
+  box-shadow: 0 10px 28px rgba(169, 143, 194, 0.16);
+  text-align: center;
+}
+.mypage-avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  background: #a98fc2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+.mypage-side-name {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.mypage-side-email {
+  font-size: 12px;
+  color: #8b7488;
+  font-family: 'JetBrains Mono', monospace;
+  margin-bottom: 22px;
+  word-break: break-all;
+}
+
+.mypage-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.mypage-card {
+  background: #fffbf9;
+  border: 1px solid #f7dce0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 28px rgba(169, 143, 194, 0.16);
+}
+.mypage-card-header {
+  border-bottom: 1px solid #f7dce0;
+  padding: 16px 24px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.mypage-card-body {
+  padding: 6px 24px 10px;
+}
+
+.mypage-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #f7dce0;
+}
+.mypage-row:last-child {
+  border-bottom: none;
+}
+.mypage-row-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.mypage-row-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #efe8f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  color: #a98fc2;
+}
+.mypage-row-icon svg {
+  width: 18px;
+  height: 18px;
+}
+.mypage-row-text .t {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b3b47;
+}
+.mypage-row-text .d {
+  font-size: 12px;
+  color: #8b7488;
+  margin-top: 2px;
+}
+
+.mypage-btn {
+  border: none;
+  border-radius: 100px;
+  padding: 9px 18px;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+}
+.mypage-btn:active {
+  transform: scale(0.97);
+}
+.mypage-btn-primary {
+  background: #a98fc2;
+  color: #fff;
+}
+.mypage-btn-ghost {
+  background: #efe8f5;
+  color: #a98fc2;
+}
+.mypage-btn-danger {
+  background: #ffe2e2;
+  color: #a9576b;
+}
+
+.mypage-danger-row {
+  background: #ffe2e2;
+  margin: 0 -24px;
+  padding: 16px 24px;
+}
+.mypage-danger-row .mypage-row-icon {
+  background: #dfa9a9;
+  color: #a9576b;
+}
+.mypage-danger-row .t {
+  color: #a9576b;
+}
+
+.mypage-msg {
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.mypage-msg.ok {
+  color: #3c8c55;
+}
+.mypage-msg.err {
+  color: #c0574b;
+}
+
+@media (max-width: 720px) {
+  .mypage-layout {
+    flex-direction: column;
+  }
+  .mypage-sidebar {
+    width: 100%;
+    flex: none;
+  }
+}

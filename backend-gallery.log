@@ -1,0 +1,29 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\user\\Desktop\\Planit-InitAuthGeneratingAndMain-main']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6084] using StatReload
+INFO:     Started server process [22404]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:2957 - "PUT /users/gallery-test-uid/profile-photo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2980 - "PUT /users/gallery-test-uid/profile-photo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2982 - "GET /users/gallery-test-uid/profile-photos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3937 - "GET /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14993 - "GET /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1449 - "GET /uploads/profile_images/grGqNgZon2Y1B9gjoqDY4yoeL2S2.jpg?v=1790057433 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:6492 - "OPTIONS /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6492 - "PUT /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6492 - "GET /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8241 - "GET /uploads/profile_images/grGqNgZon2Y1B9gjoqDY4yoeL2S2_1790058114494.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2308 - "PUT /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2308 - "GET /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6079 - "GET /uploads/profile_images/grGqNgZon2Y1B9gjoqDY4yoeL2S2_1790058120517.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2308 - "OPTIONS /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photo/select HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2308 - "PUT /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photo/select HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3643 - "GET /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9760 - "GET /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1542 - "GET /uploads/profile_images/grGqNgZon2Y1B9gjoqDY4yoeL2S2_1790058114494.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:1542 - "GET /uploads/profile_images/grGqNgZon2Y1B9gjoqDY4yoeL2S2_1790058120517.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:14561 - "GET /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6051 - "GET /users/grGqNgZon2Y1B9gjoqDY4yoeL2S2/profile-photos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10229 - "GET /uploads/profile_images/grGqNgZon2Y1B9gjoqDY4yoeL2S2_1790058114494.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:10229 - "GET /uploads/profile_images/grGqNgZon2Y1B9gjoqDY4yoeL2S2_1790058120517.jpg HTTP/1.1" 304 Not Modified

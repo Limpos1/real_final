@@ -1,0 +1,45 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\user\\Desktop\\Planit-InitAuthGeneratingAndMain-main']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [8792] using StatReload
+INFO:     Started server process [18540]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:9871 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8505 - "GET /chat/quota HTTP/1.1" 200 OK
+C:\Users\user\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\base_collection.py:317: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+INFO:     127.0.0.1:2054 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10764 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7089 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7089 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8917 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10700 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9950 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1854 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7872 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13589 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7597 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11644 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7901 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7901 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7901 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     192.168.0.232:39646 - "POST /parse-toc/pdf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7901 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7901 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1739 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1739 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1739 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7901 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7901 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2/toc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7901 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7901 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4268 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+C:\Users\user\Desktop\Planit-InitAuthGeneratingAndMain-main\checklist_sync.py:138: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  .where("planDate", ">=", today_str)  # 오늘 이후 것만 지움
+INFO:     192.168.0.232:39654 - "POST /generate-plan HTTP/1.1" 200 OK
+INFO:     192.168.0.232:39658 - "POST /parse-toc/pdf HTTP/1.1" 200 OK
+INFO:     192.168.0.232:39660 - "POST /generate-plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12936 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:5020 - "GET /plans/grGqNgZon2Y1B9gjoqDY4yoeL2S2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10052 - "GET /plans/skzxkFfdjXgstrd5XuA9MFRLiaj2 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:10052 - "GET /plans/skzxkFfdjXgstrd5XuA9MFRLiaj2 HTTP/1.1" 404 Not Found

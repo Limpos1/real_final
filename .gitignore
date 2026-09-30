@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.env
+firebase-service-account.json
+*-firebase-adminsdk-*.json
+
+# Node / 프론트엔드
+node_modules/
+dist/
+
+# Gradle 빌드 산출물
+build/
+.gradle/
+
+# 에디터/OS
+.idea/
+.vscode/
+.DS_Store
